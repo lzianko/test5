@@ -1,0 +1,450 @@
+*{
+    border: 0;
+}
+
+.html, body {
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(img/ZVEZDNOJE\ NEBO.jpg);
+    height: 1024px;
+    width: auto;
+}
+
+.container{
+    margin: 0px 115px;
+}
+
+.header-line{
+    padding-top: 47px;
+    display: flex;/*чтобы все было в одну строчку*/
+    align-items: center; /*выравнивание по центру ОТ главного элемента,то есть лого*/     
+}
+
+.nav-item:hover{
+    color: red;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+    font-family: Istok Web;
+    font-weight: 400; /*толщина*/
+    font-size: 14px;/*размер текста*/
+    margin-right: 25px; /*задаем отступ элементов друг от друга*/
+    padding-left: 190px;
+    transition: color 0.3s linear;
+}
+
+.container-holder{
+    display: flex;
+}
+
+.header-title{
+    color: white;
+    font-family: 'Kenia', sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    margin-top: 164px;
+    display: flex;
+    flex: wrap;
+    line-height: 160px;
+    
+
+}
+
+.header-sub-title{
+    color: white;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    flex: wrap;
+    padding-top: 175px;
+}
+
+.page-main{
+    background-color: #D53005;;
+    box-sizing: border-box;
+    height: 100vh;
+    width: auto;
+}
+
+.catalog_title{
+    margin: 83px 122px;
+}
+
+.Images{
+    position: absolute;
+    display: flex;
+    flex: wrap;
+}
+
+.Foto-Telefona{
+    padding-left: 1100px;
+    padding-bottom: 600px;
+    position: absolute;
+    width: 500px;
+    height: 888.006px;  
+}
+
+.kabel{ 
+    position: absolute;
+    padding-top: 736px;
+    padding-left: 740px;
+}
+
+
+
+
+
+.catalog_title{
+    margin: 0%;
+    color: #FFF;
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin: 82px 122px;
+    position: absolute;
+}
+
+.page-midl{
+   padding-top: 250px;
+   display: flex;
+   position: relative 
+  
+}
+
+.button-list{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    width: 80%;
+    height: 83px;
+    padding-left: 80px;
+}
+
+.button-midl{
+    padding: 25px;
+    margin: 40px;
+    color:white;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: radial-gradient(2086.98% 134.85% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    box-shadow: -4px -4px 30px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 30%;  
+    
+}
+
+
+
+.Image-midl{
+    display: flex;
+    flex: wrap;
+}
+
+.Image-Plastinka{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    
+    width: 1000px;
+    height: 666.5px;
+    
+}
+.page-main-2{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    height: 100vh;
+    width: auto;
+    background: linear-gradient(180deg, #D53005 0%, #000 6.04%);
+}
+
+.container-2{
+    display: flex;
+    flex: wrap;
+}
+
+.Info{
+    margin: 83px 122px;
+    color: #FFF;
+    font-family: Karla;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    position: absolute;
+}
+.mid-info{
+    position: absolute;
+    margin: 0;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 476px 500px;
+}
+
+
+.page-main-3{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    height: 100vh;
+    width: auto;
+    background-color: #D53005;
+}
+
+
+.Info-store{
+    position: absolute;
+    margin:0%;
+    padding: 0%;
+    margin: 83px 122px;
+    color: #FFF;
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.button-list-2{
+    display: flex;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+  
+}
+
+
+.button-midl-2{
+    position: absolute;
+    margin: 254px 110px;
+    width: 240px;
+    height: 60px;   
+    color: white;
+    border-radius: 30px;
+    background: rgba(2, 2, 2, 0.90);
+    box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+.button-midl-3{
+    position: absolute;
+    margin: 362px 110px;
+    color: black;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.70);
+    background: #E3E3E3;
+    box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 240px;
+    height: 60px;
+}
+
+.page-text-str-3{
+    position: absolute;
+    margin: 557px 25px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.page-info-text-2{
+    position: absolute;
+   
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.page-info-text-3{
+    display: flex;
+    flex: wrap;
+    position: absolute;
+    margin: 130px 19px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    justify-content: space-around;
+}
+.MacbookPro{
+    position: absolute;
+    margin: 174.8px 800px;
+    width: 934.196px;
+    height: 611.98px;
+}
+
+
+.page-main-4{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    height: 536px;
+    width: auto;
+    background: linear-gradient(180deg, #D53005 0%, #000 4.01%);
+}
+
+.main-text-str-4{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    
+    display: flex;
+    flex: wrap;
+}
+.page-text-block-1{
+    margin: 120px 452px;
+}
+
+.Zagolovok-1{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text-block-1{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page-text-block-2{
+    white-space: nowrap;
+    padding: 0%;
+    position: absolute;
+    margin: 120px 779px;
+}
+
+.page-text-block-3{
+    margin: 120px;
+}
+
+.main-text-str-4-bottom{
+    position: absolute;
+    display: flex;
+    margin:300px 106px;
+  
+}
+
+
+.Zagolovok-2{
+    margin: 0%;
+    padding: 0%;
+    color: #FFF;
+    font-family: Kenia;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-block-2{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lats-link{
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+}
+
+.link-text-1{
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 472px 551px;
+}
+
+.link-text-2{
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 472px 847px;
+}
+
+.link-text-3{
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 470px 1200px;
+}
+
+
+
